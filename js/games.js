@@ -55,7 +55,7 @@ function calcularResposta(n1, n2, op) {
 function verificarResposta() {
     const respostaUsuario = parseInt(document.getElementById("resposta").value);
     if (respostaUsuario === respostaCorreta) {
-        document.getElementById("resultado").innerText = `Resposta Correta!`;
+        document.getElementById("resultado").innerText = `$Resposta Correta!`;
         pontuacao += 10;
     } else {
         document.getElementById("resultado").innerText = `Errado! A resposta era ${respostaCorreta}`;
